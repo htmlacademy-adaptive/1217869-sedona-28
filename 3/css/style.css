@@ -338,6 +338,7 @@
 }
 .map__image {
   width: 100%;
+  height: auto;
   box-sizing: border-box;
   background-size: cover;
 }
@@ -387,6 +388,8 @@
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
 }
 .form__label-text {
   margin-left: 16px;
@@ -496,6 +499,8 @@
 }
 .catalog__image {
   margin-bottom: 15px;
+  width: 100%;
+  height: auto;
 }
 .catalog__title {
   font-weight: 700;
@@ -549,6 +554,10 @@
 }
 .catalog-info__video {
   background-image: url("../img/video-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: 100%;
 }
 .visually-hidden {
   position: absolute;
