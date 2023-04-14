@@ -25,7 +25,8 @@
         <img class="main-header__logo-image" src="img/logo.png" width="185" height="96" alt="Город Седона.">
       </a>
       <nav class="main-nav">
-        <button class="main-nav__toggle" type="button" onclick="openmenu();">
+        <button class="main-nav__toggle-wrapper" type="button" onclick="openmenu();">
+          <div class="main-nav__toggle"></div>
           <span class="visually-hidden">Открыть меню</span>
         </button>
 
@@ -34,26 +35,30 @@
             <button class="main-nav__close-menu" type="button" onclick="closemenu();">
               <span class="visually-hidden">Закрыть меню</span>
             </button>
+            <div class="site-list__link-wrapper">
             <a class="site-list__link" href="index.html">
               <li class="site-list__item site-list__item--active">
                 Главная
               </li>
             </a>
             <a class="site-list__link" href="catalog.html">
-            <li class="site-list__item">
+              <li class="site-list__item">
                 Фото и видео
-            </li>
+              </li>
             </a>
+            </div>
+            <div class="site-list__link-wrapper">
             <a class="site-list__link" href="form.html">
               <li class="site-list__item">
                 Форма отзыва
-               </li>
+              </li>
             </a>
             <a class="site-list__link" href="https://htmlacademy.ru/">
               <li class="site-list__item">
                 HTMLACADEMY
               </li>
             </a>
+            </div>
           </ul>
         </div>
       </nav>
@@ -64,6 +69,8 @@
       <section class="intro">
         <div class="intro__image">
           <img class="welcome-title" src="img/intro_text.svg" width="282" height="214" alt="welcome to the gargeous SEDONA.">
+          <div class="intro__decor-left"></div>
+          <div class="intro__decor-right"></div>
         </div>
         <div class="intro__content">
           <h2 class="intro__title">Оставьте свой отзыв</h2>
