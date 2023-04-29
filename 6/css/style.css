@@ -102,7 +102,6 @@
   .main-nav__list {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
   }
 }
 
@@ -205,9 +204,13 @@
   }
 }
 
+.site-list__item {
+  width: 20%;
+}
+
 @media (min-width: 768px) {
   .site-list__item--blank {
-    width: 140px;
+    margin-right: 20%;
   }
 }
 
@@ -339,7 +342,7 @@
   height: auto;
   box-sizing: border-box;
   object-fit: cover;
-  display: flex;
+  display: block;
 }
 @media (min-width: 768px) {
   .real-city__image {
@@ -1366,12 +1369,13 @@
   font-display: swap;
 }
 .video {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
   padding: 0 20px;
   position: relative;
+  width: 100%;
 }
 .video::after {
   content: "";
